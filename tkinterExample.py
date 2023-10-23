@@ -3,7 +3,7 @@ import tkinter as t
 def createWindow(title:str)->t.Tk:
     window = t.Tk()
     window.title(title)
-    window.geometry("1080x720")
+    window.geometry("720x720")
     return window
 def addElements(root:t.Tk) -> None:
     increment_label = t.Label(root,text="0")
