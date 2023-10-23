@@ -17,7 +17,7 @@ def addElements(root:t.Tk) -> None:
     buttons_frame.pack(side=t.TOP,fill="x")
     add_button.pack(side=t.LEFT,expand=True)
     sub_button.pack(side=t.LEFT,expand=True)
-
+ 
 root = createWindow("Application")
 
 addElements(root)
